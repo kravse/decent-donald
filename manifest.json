@@ -1,16 +1,20 @@
 {
 
   "manifest_version": 2,
-  "name": "Decent Donald",
-  "version": "1.0.0",
-  "description": "An extension that replaces all of Trump's tweets with tender words of encouragement!",
+  "name": "Tasteful Trump",
+  "version": "1.0.1",
+  "description": "An extension that transforms all of Trump’s tweets to tasteful, tender words of encouragement.",
   "icons": {
-    "48": "icons/icon.png"
+    "48": "/images/icon.png"
+  },
+  "browser_action": {
+    "default_icon": "./images/icon.png",
+    "default_popup": "popup.html"
   },
   "content_scripts": [
     {
       "matches": ["*://*.twitter.com/*"],
-      "js": ["decent-donald.js"]
+      "js": ["tasteful-trump.js"]
     }
   ]
 }

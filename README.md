@@ -1,5 +1,5 @@
-# Decent Donald
+# Tasteful Trump
 
-> An extension that replaces all of Trump's tweets with tender words of encouragement!
+> An extension that transforms all of Trump’s tweets to tasteful, tender words of encouragement.
 
-![new](/example.png)
+![new](/images/example.png)

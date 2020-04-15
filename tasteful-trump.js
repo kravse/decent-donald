@@ -2,6 +2,7 @@
   const compliments = [
     "You're an awesome friend.",
     "You're a gift to those around you.",
+    "You're Hired!",
     "You're a smart cookie.",
     "You are awesome!",
     "You have impeccable manners.",
