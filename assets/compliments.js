@@ -1,5 +1,5 @@
-(() => {
-  const compliments = [
+console.log('sup');
+var compliments = [
     "You're an awesome friend.",
     "You're a gift to those around you.",
     "You're Hired!",
@@ -102,23 +102,5 @@
     "You're really something special.",
     "Thank you for being you."
   ];
-  function changeTweets() {
-    let tweets = document.querySelectorAll('[role="article"]');
-    if (tweets.length > 0) {
-      [...tweets].forEach(tweet => {
-        if (!tweet.querySelector('[src="https://pbs.twimg.com/profile_images/874276197357596672/kUuht00m_bigger.jpg"]')) return;
-        let donaldTweet = tweet.querySelector('div [lang]:not(.nice-donald-done)');
-        if (donaldTweet) {
-          donaldTweet.classList.add("nice-donald-done")
-          let compliment = compliments[Math.floor(Math.random() * compliments.length)];
-          donaldTweet.innerHTML = compliment;
-        }
-      });
-      setTimeout(changeTweets, 1000)
-    } else {
-      setTimeout(changeTweets, 100)
-    }
-  }
 
-  setTimeout(changeTweets, 100);
-})()
+console.log('hello');

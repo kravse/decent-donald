@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./assets/normalize.css">
     <style type="text/css">
       html {
         margin: 0;
@@ -60,16 +60,21 @@
         text-align: right;
         margin: 0;
       }
+      #quote {
+        font-style: italic;
+      }
     </style>
   </head>
   <body>
     <div class="content">
       <img src="./images/large-trump.png">
       <h1>Tasteful Trump</h1>
+      <p id="quote"></p>
       <p class="description">An extension that transforms all of <a href="https://www.twitter.com/realDonaldTrump" target="_blank">@RealDonaldTrump</a>'s tweets to tasteful, tender words of encouragement.</p>
       <!-- <button id="toggle">Disable</button> -->
       <p class="creds">Built by <a href="https://www.twitter.com/kravse" target="_blank">@kravse</a></p>
     </div>
-    <!-- <script src="scripts.js"></script> -->
+    <script src="./assets/compliments.js"></script>
+    <script src="./assets/scripts.js"></script>
   </body>
 </html>

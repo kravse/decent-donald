@@ -1,11 +1,12 @@
 {
-
   "manifest_version": 2,
   "name": "Tasteful Trump",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "An extension that transforms all of Trump’s tweets to tasteful, tender words of encouragement.",
   "icons": {
-    "48": "/images/icon.png"
+    "48": "./images/icon.png",
+    "128": "./images/icon128.png"
+
   },
   "browser_action": {
     "default_icon": "./images/icon.png",
@@ -14,7 +15,7 @@
   "content_scripts": [
     {
       "matches": ["*://*.twitter.com/*"],
-      "js": ["tasteful-trump.js"]
+      "js": ["assets/compliments.js", "assets/tasteful-trump.js"]
     }
   ]
 }
