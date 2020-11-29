@@ -1,4 +1,4 @@
-# Tasteful Trump
+# Trump Attitude Makeover
 
 A Firefox/Chrome extension that transforms all of Trump’s tweets to tasteful, tender words of encouragement.
 
